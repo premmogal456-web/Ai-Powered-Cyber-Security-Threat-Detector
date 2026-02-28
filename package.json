@@ -1,0 +1,27 @@
+{
+  "name": "ai-powered-cybersecurity-threat-detector",
+  "version": "1.0.0",
+  "description": "A modern, AI-powered cybersecurity threat detection system with real-time monitoring and analysis",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "cybersecurity",
+    "threat-detection",
+    "ai",
+    "security",
+    "malware-detection",
+    "phishing-detection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
