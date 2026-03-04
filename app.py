@@ -14,6 +14,8 @@ if not os.path.exists(UPLOAD_FOLDER):
 
 
 # ---------- HOME ----------
+# ---------- HOME ----------
+
 @app.route("/")
 def home():
     if "user" in session:
